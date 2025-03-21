@@ -19,7 +19,8 @@ RUN apt-get update && apt-get install -y \
   libpango-1.0-0 \
   libpangocairo-1.0-0 \
   libasound2 \
-  libxshmfence1
+  libxshmfence1 \
+  libXdamage1
 
 # Install the project dependencies
 RUN npm install
